@@ -4,7 +4,7 @@ namespace warmupsNET_episode01.Models
 {
     public class FizzBuzz
     {
-        [Display(Name = "Wpisz liczbę")]
+        [Display(Name = "Podaj liczbę")]
         [Range(1, 100, ErrorMessage = "Oczekiwana wartość {0} z zakredu {1} i {2}.")]
         [Required(ErrorMessage="Pole jest obowiązkowe")]
         public int? Number { get; set; }
